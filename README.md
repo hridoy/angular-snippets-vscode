@@ -12,9 +12,9 @@ See the [CHANGELOG](https://github.com/hridoy/backbone-js-snippets-vscode/master
 
 Features Snippets
 =================
-![Angular Core](https://github.com/hridoy/angular-snippets-vscode/raw/master/img/angular-ts.png)&nbsp;![Angular Bug](https://github.com/hridoy/angular-snippets-vscode/raw/master/img/angular-bug.png)&nbsp;![Angular rxjs](https://github.com/hridoy/angular-snippets-vscode/raw/master/img/angular-rxjs.png)&nbsp;&nbsp;![Angular Material](https://github.com/hridoy/angular-snippets-vscode/raw/master/img/material.png)&nbsp;<br />&nbsp;<sub>**Angular Core**</sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub>**Angular Bug**</sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub>**Angular rxjs**</sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub>**Angular Material**</sub> <br />
+![Angular Core](https://github.com/hridoy/angular-snippets-vscode/raw/master/img/angular-ts.png)&nbsp;![Angular Bug](https://github.com/hridoy/angular-snippets-vscode/raw/master/img/angular-bug.png)&nbsp;![Angular rxjs](https://github.com/hridoy/angular-snippets-vscode/raw/master/img/angular-rxjs.png)&nbsp;&nbsp;![Angular Material](https://github.com/hridoy/angular-snippets-vscode/raw/master/img/material.png)&nbsp;<br />&nbsp;&nbsp;&nbsp;<sub>**Angular Core**</sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub>**Angular Bug**</sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub>&nbsp;&nbsp;&nbsp;&nbsp;**Angular rxjs**</sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub>&nbsp;&nbsp;&nbsp;&nbsp;**Angular Material**</sub> <br />
 
-![Angular Native](https://github.com/hridoy/angular-snippets-vscode/raw/master/img/angular-native.png)&nbsp;![Angular Meteor](https://github.com/hridoy/angular-snippets-vscode/raw/master/img/angular-meteor.png)&nbsp;&nbsp;&nbsp;&nbsp;![Angular Bootstrap](https://github.com/hridoy/angular-snippets-vscode/raw/master/img/bootstrap.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Angular Flex](https://github.com/hridoy/angular-snippets-vscode/raw/master/img/flex.png)&nbsp;<br />&nbsp;<sub>**Angular Native**</sub>&nbsp;&nbsp;&nbsp;<sub>**Angular Meteor**</sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub>**Angular Bootstrap**</sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub>**Angular Flex**</sub>
+![Angular Native](https://github.com/hridoy/angular-snippets-vscode/raw/master/img/angular-native.png)&nbsp;![Angular Meteor](https://github.com/hridoy/angular-snippets-vscode/raw/master/img/angular-meteor.png)&nbsp;&nbsp;&nbsp;&nbsp;![Angular Bootstrap](https://github.com/hridoy/angular-snippets-vscode/raw/master/img/bootstrap.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Angular Flex](https://github.com/hridoy/angular-snippets-vscode/raw/master/img/flex.png)&nbsp;<br />&nbsp;<sub>**Angular Native**</sub>&nbsp;&nbsp;&nbsp;<sub>&nbsp;&nbsp;**Angular Meteor**</sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub>&nbsp;&nbsp;&nbsp;&nbsp;**Angular Bootstrap**</sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub>&nbsp;&nbsp;&nbsp;&nbsp;**Angular Flex**</sub>
 
 
 # Usage
@@ -29,9 +29,8 @@ Features Snippets
  6. **ng-r** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`stand for ng-route`
  7. **ng-p** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`stand for ng-pipe`
 
-| **Prefix** | **Description** |
+| **ng-** | **Description** |
 |---|---|
-| **ng-** | |
 | `ng-afterContentChecked` | Lifecycle hook: Called after every check of the component's or directive's content |
 | `ng-afterContentInit` | Lifecycle hook: Called after ngOnInit when the component's or directive's content has been initialized |
 | `ng-afterViewChecked` | Lifecycle hook: Called after every check of the component's view. Applies to components only |
@@ -72,36 +71,31 @@ Features Snippets
 | ng-repeat | Use ngFor instead. |
 
 
-| **Prefix** | **Description** |
+| **Componet (ng-c)** | **Description** |
 |---|---|
-| **ng-c** | |
-| `ng-component` | Component with template and style urls |
-| `ng-component-inline` | Component with inline Template and Styles |
+| `ng-c` | Component with template and style urls |
+| `ng-c-inline` | Component with inline Template and Styles |
 
-| **Prefix** | **Description** |
+| **Directive (ng-d)** | **Description** |
 |---|---|
-| **ng-d** | |
-| `ng-directive` | Directive template |
-| `ng-directive-attribute` | Attribute directive |
-| `ng-directive-css` | CSS directive |
+| `ng-d` | Directive template |
+| `ng-d` | Attribute directive |
+| `ng-d-css` | CSS directive |
 
 
-| **Prefix** | **Description** |
+| **Module (ng-m)** | **Description** |
 |---|---|
-| **ng-m** | |
-| `ng-module` | Feature Module |
-| `ng-module-root` | App root module |
+| `ng-m` | Feature Module |
+| `ng-m-root` | App root module |
 
-| **Prefix** | **Description** |
+| **Service (ng-s)** | **Description** |
 |---|---|
-| **ng-s** | |
 | `ng-s` | Basic service |
 | `ng-s-appmodule` | Routes to include in root module |
 
 
-| **Prefix** | **Description** |
+| **Route (ng-r)** | **Description** |
 |---|---|
-| **ng-r** | |
 | `ng-r` | Router template |
 | `ng-r-appmodule` | Routes to include in root module |
 | `ng-r-attribute` | Router link |
@@ -116,38 +110,36 @@ Features Snippets
 | `ng-r-guard-canload` | CanLoad Guard Route |
 | `ng-r-guard-resolve` | Resolve Guard Route |
 
-| ** ** | ** ** |
+| **Pipe (ng-p)** | **Description** |
 |---|---|
-| **ng-p** | |
-| `ng-pipe` | Pipe template |
-| `ng-pipe-async` | Async pipe - Usage: observable_or_promise_expression &#x7c; async |
-| `ng-pipe-currency` | Currency pipe - Usage: money &#x7c; currency:'EUR' |
-| `ng-pipe-date` | Date pipe - Default format: 09/15/1971 |
-| `ng-pipe-date-custom` | Date pipe - Format: \"MM/dd/yy\" = 09/15/71 |
-| `ng-pipe-date-full` | Full date pipe - Format: Wednesday, September 15, 1971 |
-| `ng-pipe-date-short` | Short date pipe - Format: 09/15/1971 |
-| `ng-pipe-decimal` | Decimal pipe - Usage: number_expression &#x7c; decimal[:digitInfo] |
-| `ng-pipe-example` | Angular pipe example |
-| `ng-pipe-json` | Json pipe - Usage: object &#x7c; json |
-| `ng-pipe-lowercase` | Lowercase pipe |
-| `ng-pipe-percent` | Percent pipe - Usage: number_expression &#x7c; percent[:digitInfo] |
-| `ng-pipe-slice` | Slice pipe - Usage: array_or_string_expression &#x7c; slice:start[:end] |
-| `ng-pipe-titlecase` | v4: Titlecase pipe |
-| `ng-pipe-uppercase` | Uppercase pipe |
+| `ng-p` | Pipe template |
+| `ng-p-async` | Async pipe - Usage: observable_or_promise_expression &#x7c; async |
+| `ng-p-currency` | Currency pipe - Usage: money &#x7c; currency:'EUR' |
+| `ng-p-date` | Date pipe - Default format: 09/15/1971 |
+| `ng-p-date-custom` | Date pipe - Format: \"MM/dd/yy\" = 09/15/71 |
+| `ng-p-date-full` | Full date pipe - Format: Wednesday, September 15, 1971 |
+| `ng-p-date-short` | Short date pipe - Format: 09/15/1971 |
+| `ng-p-decimal` | Decimal pipe - Usage: number_expression &#x7c; decimal[:digitInfo] |
+| `ng-p-example` | Angular pipe example |
+| `ng-p-json` | Json pipe - Usage: object &#x7c; json |
+| `ng-p-lowercase` | Lowercase pipe |
+| `ng-p-percent` | Percent pipe - Usage: number_expression &#x7c; percent[:digitInfo] |
+| `ng-p-slice` | Slice pipe - Usage: array_or_string_expression &#x7c; slice:start[:end] |
+| `ng-p-titlecase` | v4: Titlecase pipe |
+| `ng-p-uppercase` | Uppercase pipe |
 
 
 
 ### Angular rxjs
-| **Prefix** | **Description** |
+| **ng-rx** | **Description** |
 |---|---|
-| **ng-rxjs** | |
 | `ng-rx-action` | ngRx Single action |
 | `ng-rx-actions` | ngRx Actions class |
 | `ng-rx-module` | ngRx Root Module |
 | `ng-rx-reducer` | ngRx Reducer |
-|`ng-rx-util ` | ngRx Util|
+| `ng-rx-util` | ngRx Util|
 
-### Angular Bug
+### Angular Debuging
 | **Prefix** | **Description** |
 |---|---|
 | **ng-test** | |
@@ -163,94 +155,147 @@ Features Snippets
 
 ### Angular Material
 
-| **ng-md Prefix** | **Description** |
+| **ng-md** | **Description** |
 |---|---|
 | **Autocomplete** | |
-|`md-autocomplete:full` | all autocomplete options|
-|`md-autocomplete:tpl` | all autocomplete options with custom template|
-| **AutoFocus** | |
-|`md-autofocus` | inline autofocus option|
-| **Button** | |
+|`ng-md-autocomplete:full` | all autocomplete options|
+|`ng-md-autocomplete:tpl` | all autocomplete options with custom template|
+
+| **AutoFocus** | ** ** |
+|---|---|
+|`ng-md-autofocus` | inline autofocus option|
+
+| **Button** | ** ** |
+|---|---|
 |`md-button:standard` | standard button no options|
 |`md-button:full` | standard button with all options|
 |`md-button:icon` | standard button with icon and option mini and fab|
-| **Bottom Sheet** | |
+
+| **Bottom Sheet** | ** ** |
+|---|---|
 |`md-bottom-sheet:standard` | standard bottom sheet |
 |`md-bottom-sheet:list` | bottom sheet list template |
 |`md-bottom-sheet:grid` | bottom sheet grid template |
-| **Card** | |
+
+| **Card** | ** ** |
+|---|---|
 |`md-card:standard` | standard card|
 |`md-card:Full` | full options card|
+
 | **Checkbox** | |
 |`md-checkbox:full` | checkbox full options|
 |`md-checkbox:simple` | checkbox minimal options|
-| **Chip** | |
+
+| **Chip** | ** ** |
+|---|---|
 |`md-chip:single` |  single md-chip item|
 |`md-chip-remove` |  button to remove chip|
-| **Datepicker** | |
+
+| **Datepicker** | ** ** |
+|---|---|
 |`md-dialog:full` |  date picker with full options|
 |`md-datepicker:simple` |  datepicker with minimal options |
-| **Dialog** | |
+
+| **Dialog** | ** ** |
+|---|---|
 |`Dialog:full` |  datepicker with full options |
-| **Divider** | |
+
+| **Divider** | ** ** |
+|---|---|
 |`md-divider` |  simple divider|
-| **Fab Speed Dial** | |
+
+| **Fab Speed Dial** | ** ** |
+|---|---|
 |`md-fab-speed-dial` |  fab speed dial|
-| **Fab Toolbar** | |
+
+| **Fab Toolbar** | ** ** |
+|---|---|
 |`md-fab-toolbar` |  fab toolbar|
-| **Grid** | |
+
+| **Grid** | ** ** |
+|---|---|
 |`md-grid-list-tile:single` |  single grid list tile|
 |`md-grid-list-tile:footer` |  single grid list tile with footer|
 |`md-grid-list:standard` |  grid list with options|
-| **Menu** | |
+
+| **Menu** | ** ** |
+|---|---|
 |`md-menu:full` |  full options and template for menu|
 |`md-menu:simple` |  simple template for menu|
-| **Layout** | |
+
+| **Layout** | ** ** |
+|---|---|
 |`md-layout` |  the md-content tag with layout options|
-| **Ink Ripple** | |
+
+| **Ink Ripple** | ** ** |
+|---|---|
 |`md-ink-ripple` | md-ink-ripple options|
-| **Inputs** | |
+
+| **Inputs** | ** ** |
+|---|---|
 |`md-input-container:single` | single md container. Wrapper for other input elements|
 |`md-input:single` | standard input with options|
 |`md-select` | select item with options|
 |`ng-messages:wrapper` | the wrapper for ng messages|
 |`ng-message:single` | single ng-message element|
-| **List** | |
+
+| **List** | ** ** |
+|---|---|
 |`md-list:single` | single list item |
 |`md-list:standard` | standard list |
-| **Progess** | |
+
+| **Progess** | ** ** |
+|---|---|
 |`md-progress-circle` | circular progress loader|
 |`md-progress-linear` | md-progress-linear|
-| **Radio Button** | |
+
+| **Radio Button** | ** ** |
+|---|---|
 |`md-radio-button:standard` |standard radio button|
 |`md-radio-button:full` | radio button full options|
 |`md-radio-group` | radio button group|
-| **Slider** | |
+
+| **Slider** | ** ** |
+|---|---|
 |`md-slider:standard` | slider|
-| **Swtich** | |
+
+| **Swtich** | ** ** |
+|---|---|
 |`md-switch:full` | switch full options|
-| **Subheader** | |
+
+| **Subheader** | ** ** |
+|---|---|
 |`md-subheader` | subheader|
-| **Swipe** | |
+
+| **Swipe** | ** ** |
+|---|---|
 |`md-swipe` | swipe options|
-| **Tabs** | |
+
+| **Tabs** | ** ** |
+|---|---|
 |`md-tab:label` | tab label|
 |`md-tab:body` | tab body|
 |`md-tab-item:full` | full tabs options|
 |`md-tab:simple` | simple tab template|
 |`md-tab:full` | full tab template|
-| **ToolTip** | |
+
+| **ToolTip** | ** ** |
+|---|---|
 |`md-tooltip` | tooltip full options|
-| **Virtual Repeat** | |
+
+| **Virtual Repeat** | ** ** |
+|---|---|
 |`md-virtual-repeat` | virtual repeat for lists|
-| **Whiteframe** | |
+
+| **Whiteframe** | ** ** |
+|---|---|
 |`md-whiteframe` | md-whiteframe options|
 
 
 ### Angular Flex
-| **Prefix** | **Description** |
+
+| **ng-fx** | **Description** |
 |---|---|
-| **ng-f** | |
 | `ng-fx-col` | Flex Layout Column |
 | `ng-fx-col-reverse` | Flex Layout Reverse Column |
 | `ng-fx-import` | Flex Layout Import |
@@ -267,13 +312,3 @@ Features Snippets
 
 
 Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (OSX) to activate snippets from within the editor.
-
-## Installation
-
-
-1. Install Visual Studio Code 1.10.0 or higher
-2. Launch Code
-3. From the command palette `Ctrl`-`Shift`-`P` (Windows, Linux) or `Cmd`-`Shift`-`P` (OSX)
-4. Select `Install Extension`
-5. Choose the extension
-6. Reload Visual Studio Code
