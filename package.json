@@ -1,0 +1,90 @@
+{
+    "name": "angular-snippets",
+    "displayName": "Angular Snippets",
+    "description": "All in one tool for angular development",
+    "version": "1.0.0",
+    "publisher": "Hridoy",
+    "engines": {
+        "vscode": "^1.15.0"
+    },
+    "icon": "img/icon.png",
+    "galleryBanner": {
+		"color": "#1E81C1",
+		"theme": "light"
+    },
+    "license": "SEE LICENSE IN LICENSE.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hridoy/angular-snippets-vscode"
+    },
+    "keywords": [
+        "Angular",
+        "Angular Snippet",
+        "Angular Js Snippets",
+        "Angular 4",
+        "Angular Js"
+    ],
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/component.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/directive.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/module.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/route.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/service.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/template/default.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/debug.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/pipe.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/others.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/ng-flex.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/ng-material.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/ng-rxjs.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/ng-test.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/ng-import.json"
+            }
+        ]
+    }
+}
