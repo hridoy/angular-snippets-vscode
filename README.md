@@ -167,129 +167,129 @@ Features Snippets
 
 | **Button** | ** ** |
 |---|---|
-|`md-button:standard` | standard button no options|
-|`md-button:full` | standard button with all options|
-|`md-button:icon` | standard button with icon and option mini and fab|
+|`ng-md-button:standard` | standard button no options|
+|`ng-md-button:full` | standard button with all options|
+|`ng-md-button:icon` | standard button with icon and option mini and fab|
 
 | **Bottom Sheet** | ** ** |
 |---|---|
-|`md-bottom-sheet:standard` | standard bottom sheet |
-|`md-bottom-sheet:list` | bottom sheet list template |
-|`md-bottom-sheet:grid` | bottom sheet grid template |
+|`ng-md-bottom-sheet:standard` | standard bottom sheet |
+|`ng-md-bottom-sheet:list` | bottom sheet list template |
+|`ng-md-bottom-sheet:grid` | bottom sheet grid template |
 
 | **Card** | ** ** |
 |---|---|
-|`md-card:standard` | standard card|
-|`md-card:Full` | full options card|
+|`ng-md-card:standard` | standard card|
+|`ng-md-card:Full` | full options card|
 
 | **Checkbox** | |
-|`md-checkbox:full` | checkbox full options|
-|`md-checkbox:simple` | checkbox minimal options|
+|`ng-md-checkbox:full` | checkbox full options|
+|`ng-md-checkbox:simple` | checkbox minimal options|
 
 | **Chip** | ** ** |
 |---|---|
-|`md-chip:single` |  single md-chip item|
-|`md-chip-remove` |  button to remove chip|
+|`ng-md-chip:single` |  single md-chip item|
+|`ng-md-chip-remove` |  button to remove chip|
 
 | **Datepicker** | ** ** |
 |---|---|
-|`md-dialog:full` |  date picker with full options|
-|`md-datepicker:simple` |  datepicker with minimal options |
+|`ng-md-dialog:full` |  date picker with full options|
+|`ng-md-datepicker:simple` |  datepicker with minimal options |
 
 | **Dialog** | ** ** |
 |---|---|
-|`Dialog:full` |  datepicker with full options |
+|`ng-Dialog:full` |  datepicker with full options |
 
 | **Divider** | ** ** |
 |---|---|
-|`md-divider` |  simple divider|
+|`ng-md-divider` |  simple divider|
 
 | **Fab Speed Dial** | ** ** |
 |---|---|
-|`md-fab-speed-dial` |  fab speed dial|
+|`ng-md-fab-speed-dial` |  fab speed dial|
 
 | **Fab Toolbar** | ** ** |
 |---|---|
-|`md-fab-toolbar` |  fab toolbar|
+|`ng-md-fab-toolbar` |  fab toolbar|
 
 | **Grid** | ** ** |
 |---|---|
-|`md-grid-list-tile:single` |  single grid list tile|
-|`md-grid-list-tile:footer` |  single grid list tile with footer|
-|`md-grid-list:standard` |  grid list with options|
+|`ng-md-grid-list-tile:single` |  single grid list tile|
+|`ng-md-grid-list-tile:footer` |  single grid list tile with footer|
+|`ng-md-grid-list:standard` |  grid list with options|
 
 | **Menu** | ** ** |
 |---|---|
-|`md-menu:full` |  full options and template for menu|
-|`md-menu:simple` |  simple template for menu|
+|`ng-md-menu:full` |  full options and template for menu|
+|`ng-md-menu:simple` |  simple template for menu|
 
 | **Layout** | ** ** |
 |---|---|
-|`md-layout` |  the md-content tag with layout options|
+|`ng-md-layout` |  the md-content tag with layout options|
 
 | **Ink Ripple** | ** ** |
 |---|---|
-|`md-ink-ripple` | md-ink-ripple options|
+|`ng-md-ink-ripple` | md-ink-ripple options|
 
 | **Inputs** | ** ** |
 |---|---|
-|`md-input-container:single` | single md container. Wrapper for other input elements|
-|`md-input:single` | standard input with options|
-|`md-select` | select item with options|
-|`ng-messages:wrapper` | the wrapper for ng messages|
+|`ng-md-input-container:single` | single md container. Wrapper for other input elements|
+|`ng-md-input:single` | standard input with options|
+|`ng-md-select` | select item with options|
+|`ng-ng-messages:wrapper` | the wrapper for ng messages|
 |`ng-message:single` | single ng-message element|
 
 | **List** | ** ** |
 |---|---|
-|`md-list:single` | single list item |
-|`md-list:standard` | standard list |
+|`ng-md-list:single` | single list item |
+|`ng-md-list:standard` | standard list |
 
 | **Progess** | ** ** |
 |---|---|
-|`md-progress-circle` | circular progress loader|
-|`md-progress-linear` | md-progress-linear|
+|`ng-md-progress-circle` | circular progress loader|
+|`ng-md-progress-linear` | md-progress-linear|
 
 | **Radio Button** | ** ** |
 |---|---|
-|`md-radio-button:standard` |standard radio button|
-|`md-radio-button:full` | radio button full options|
-|`md-radio-group` | radio button group|
+|`ng-md-radio-button:standard` |standard radio button|
+|`ng-md-radio-button:full` | radio button full options|
+|`ng-md-radio-group` | radio button group|
 
 | **Slider** | ** ** |
 |---|---|
-|`md-slider:standard` | slider|
+|`ng-md-slider:standard` | slider|
 
 | **Swtich** | ** ** |
 |---|---|
-|`md-switch:full` | switch full options|
+|`ng-md-switch:full` | switch full options|
 
 | **Subheader** | ** ** |
 |---|---|
-|`md-subheader` | subheader|
+|`ng-md-subheader` | subheader|
 
 | **Swipe** | ** ** |
 |---|---|
-|`md-swipe` | swipe options|
+|`ng-md-swipe` | swipe options|
 
 | **Tabs** | ** ** |
 |---|---|
-|`md-tab:label` | tab label|
-|`md-tab:body` | tab body|
-|`md-tab-item:full` | full tabs options|
-|`md-tab:simple` | simple tab template|
-|`md-tab:full` | full tab template|
+|`ng-md-tab:label` | tab label|
+|`ng-md-tab:body` | tab body|
+|`ng-md-tab-item:full` | full tabs options|
+|`ng-md-tab:simple` | simple tab template|
+|`ng-md-tab:full` | full tab template|
 
 | **ToolTip** | ** ** |
 |---|---|
-|`md-tooltip` | tooltip full options|
+|`ng-md-tooltip` | tooltip full options|
 
 | **Virtual Repeat** | ** ** |
 |---|---|
-|`md-virtual-repeat` | virtual repeat for lists|
+|`ng-md-virtual-repeat` | virtual repeat for lists|
 
 | **Whiteframe** | ** ** |
 |---|---|
-|`md-whiteframe` | md-whiteframe options|
+|`ng-md-whiteframe` | md-whiteframe options|
 
 
 ### Angular Flex
