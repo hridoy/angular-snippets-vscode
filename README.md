@@ -182,7 +182,8 @@ Features Snippets
 |`ng-md-card:standard` | standard card|
 |`ng-md-card:Full` | full options card|
 
-| **Checkbox** | |
+| **Checkbox** | ** ** |
+|---|---|
 |`ng-md-checkbox:full` | checkbox full options|
 |`ng-md-checkbox:simple` | checkbox minimal options|
 

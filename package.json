@@ -2,7 +2,7 @@
     "name": "angular-snippets",
     "displayName": "Angular Snippets",
     "description": "All in one tool for angular development",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "publisher": "Hridoy",
     "engines": {
         "vscode": "^1.15.0"
